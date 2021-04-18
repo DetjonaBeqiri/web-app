@@ -1,0 +1,168 @@
+#menu {
+  display: flex;
+  flex-direction: row;
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:sticky;
+  top: 0;
+  background-color: rgba(255,255,255,0.5);
+  
+}
+
+#txt{
+align-items: right;
+margin-top:0;
+margin: 0;
+padding: 0;
+position:sticky;
+min-height: 50px;
+line-height: 20px;
+
+}
+#menu ul {
+  text-align: center;
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  transition: color .3s ease-in;
+}
+
+#menu ul li a:hover {
+  color:#333;
+  transition: color .3s ease-in;
+}
+
+#header-content1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  min-height: 300px;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin: 150px 50px;
+  color: black;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#header-subcontent1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  min-height: 53px;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin: 250px 170px;
+  color: black;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#ballina {
+  display: cover;
+  width: 100%;
+  min-height: 500px;
+  background-color: #fff;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#ballina h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  font-size: 2.1em;
+  color:#5B5B5B;
+}
+#ballina h5 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  font-size: 20px;
+  color:#E87C00;
+}
+#ballina-paragrafi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  margin:auto;
+  width: 800px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  font-size: 17px;
+  color:#5B5B5B;
+  padding: 10px;
+  
+}
+
+#lexo {
+  border: 1px solid #5B5B5B;
+  width: 15vw;
+  min-height:60px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius : 6px;
+  text-align: center;
+  background-color: #353535;
+  transition: background-color .2s ease-in;
+  transition: border .3s ease-in;
+
+}
+#lexo a {
+  position: relative;
+  top:7px;
+  text-decoration: none;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  font-size: 1.5rem;
+  color:#f8f8f8;
+  transition: color .3s ease-in;
+}
+#lexo:hover {
+   background-color: #f8f8f8;
+   transition: background-color .2s ease-in;
+   border: 1px solid #DEDEDE;
+   transition: border .3s ease-in;
+}
+#lexo:hover a {
+   color :#4c4c4c;
+   transition: color .3s ease-in;
+}
+
+
